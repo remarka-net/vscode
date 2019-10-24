@@ -1,0 +1,23 @@
+.messages{
+    
+   font-size: 40px;
+   color:#B2B9DF;
+   padding-top: 100px;
+   
+}
+.parent {
+    background: url(./centermenu/backh2.png)  ;
+    /* height: 366px;
+    width: 1366px; */
+    
+    
+    
+    
+}
+hr{
+    height: 1px;
+    width: 700px;
+}
+ul lo{
+    margin-right:50px;
+}

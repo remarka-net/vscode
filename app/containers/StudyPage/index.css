@@ -1,0 +1,72 @@
+
+h2, h3, h4{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14pt;
+}
+
+
+.paragraph{
+    display: block;
+    font-family: Roboto;
+}
+
+.practice{
+    
+}
+
+.practice p{
+    margin-right: 250px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.practice ul{
+list-style-type: disc;
+padding: 0; /* Убираем поля */
+margin-left: 20px; /* Отступ слева */
+}
+
+.practice ul li{
+    padding-top: 10px;
+}
+
+.practice strong{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    padding-left:0;
+    margin-left: 0;
+}
+
+#student_practice_list{
+    padding-top: 0;
+    margin-top:0;
+
+}
+
+#diploma_practice{
+    margin-bottom: 50px;
+}
+
+section{
+    margin-top:20px;
+}
+
+section strong{
+font-weight:bold;
+font-family: Roboto;
+font-style: normal;
+font-size: 14pt;
+}
+
+article strong{
+font-weight:bold;
+font-family: Roboto;
+font-style: normal;
+font-size: 14pt;
+}
+

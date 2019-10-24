@@ -1,0 +1,17 @@
+#master_practice{
+    width: 20%;
+    border-collapse: collapse;
+}
+
+#master_practice th{
+    border-top: solid 2px blue;
+    padding-top: 2px;
+}
+
+#master_practice td{
+    font-size:10pt;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:400;
+}
+

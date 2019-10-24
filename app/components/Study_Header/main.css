@@ -1,0 +1,15 @@
+#headlines{
+text-align: center;
+margin-right: 250px;;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 13pt;
+line-height: 33px;
+color: #000000;
+}
+
+#headlines li{
+margin-left:40px;
+display: inline-block;
+}

@@ -1,29 +1,19 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-
+import TodoLists from './Lists/lists';
 import A from 'components/A';
-import LocaleToggle from 'containers/LocaleToggle';
-import Wrapper from './Wrapper';
-import messages from './messages';
+import './Wrapper.css';
+import Vector from './vector.png';
+
 
 function Footer() {
+
   return (
-    <Wrapper>
-      <section>
-        <FormattedMessage {...messages.licenseMessage} />
-      </section>
-      <section>
-        <LocaleToggle />
-      </section>
-      <section>
-        <FormattedMessage
-          {...messages.authorMessage}
-          values={{
-            author: <A href="https://twitter.com/mxstbr">Max Stoiber</A>,
-          }}
-        />
-      </section>
-    </Wrapper>
+    <div className="Wrapper">
+        <TodoLists />
+        <A href="/">
+          <img className="ButtonUp" src={Vector} alt="scroll up" />
+        </A>
+    </div>
   );
 }
 

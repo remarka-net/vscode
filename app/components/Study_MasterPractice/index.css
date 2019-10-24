@@ -1,0 +1,30 @@
+#master_final_practice{
+    width:30%;
+    border-collapse: collapse;
+}
+
+#master_final_practice th{
+    border-top: solid 2px blue;
+    padding-top: 2px;
+}
+
+#master_final_practice td{
+    font-size:10pt;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:400;
+}
+
+article h5{
+font-weight:bold;
+font-family: Roboto;
+font-style: normal;
+font-size: 14pt;
+}
+
+article p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 250px;
+}

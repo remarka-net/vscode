@@ -1,0 +1,11 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 4.5%;
+    background: #CFD0E0;
+    color: #040638;    
+}
+
+.navcomponents{
+    margin-left:25%;
+}

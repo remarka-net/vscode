@@ -1,0 +1,61 @@
+.Wrapper{
+    background: #E0E0F4;
+    display: grid;
+    grid-template-columns: 4fr 1.3fr;
+    padding-top: 4em;
+}
+
+.Lists{
+    display: grid;
+    padding-bottom: 4em;
+    padding-left: 20em;
+    padding-right: 0;
+    color: black;
+    justify-content: center;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+ul{
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a{
+    display: block;
+    margin: .5em 0;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #040638;
+}
+
+a:active {
+    color: #fff;
+  }
+
+
+  .ButtonUp{
+    display: block;
+    border-radius: 21px;
+    margin: auto;
+    width: 42px;
+    height: 42px;
+}
+
+.ButtonUp:hover{
+    cursor: pointer;
+}
+
+.ButtonUp:active{
+    opacity: 0.5;
+}

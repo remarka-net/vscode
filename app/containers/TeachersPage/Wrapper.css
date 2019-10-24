@@ -1,0 +1,62 @@
+.mainContainer{
+    margin: 10vh 15vw;
+}
+
+.TeacherList{
+    margin-bottom: 15em;
+}
+
+#listTitle{
+    color: #585866;
+}
+
+#listTitle :first-child{
+    width: 135px;
+}
+
+#listTitle :nth-child(2){
+    width: 135px;
+}
+
+.TeacherItem{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+}
+
+.TeacherItem p{
+    margin-top: 0;
+}
+
+.TeacherItem a{
+    display: inline;
+    text-transform: none;
+    font-size: 1em;
+}
+
+.fullName{
+    text-transform: uppercase;
+    width: 135px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.ItemTitle{
+    font-weight: bold;
+}
+
+
+.portret{
+    width: 135px;
+    height: 180px;
+}
+
+@media only screen and (max-width: 1224px) {
+
+    .TeacherItem :nth-child(2){
+        padding: 1em;
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,54 @@
+.newsBlock{
+    padding: 28px 28px;
+}
+
+.Read{
+    background: #FEFDFF;
+    border: 1px solid #4341BE;
+    box-sizing: border-box;
+    border-radius: 29.5px;
+}
+
+.container_Read{
+    position: absolute; bottom: -21px;
+    background: #FEFDFF;
+    border: 1px solid #4341BE;
+    box-sizing: border-box;
+    border-radius: 29.5px;
+    width: 75%;
+}
+
+.container_Read a{
+    
+    padding: 6.5px 0;
+    margin: auto auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #4341BE;
+}
+
+.container_Read a:hover{
+    color: #FEFDFF;
+    transition: 0.2s;
+}
+
+.container_Read:hover{
+    background: #4341BE;
+    transition: 0.25s;
+}
+
+
+
+
+.container_News_item{
+    text-align: left;
+    width: 32%;
+    /* ITS ELECTRIC (link) */
+    border: 1px solid #4341BE;
+    box-sizing: border-box;
+    background: #F1F1F8;
+    border-radius: 10px;
+}

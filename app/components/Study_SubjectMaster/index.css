@@ -1,0 +1,8 @@
+#subject_list dt{
+    color:#808080;
+    font-size:10pt;
+}
+
+#subject_list dd{
+    margin-left: 0;
+}

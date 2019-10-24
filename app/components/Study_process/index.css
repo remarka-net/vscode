@@ -1,0 +1,51 @@
+
+#main{
+    margin-left:250px;
+}
+
+#proc{
+/*width: 439px;
+height: 59px;
+left: 350px;
+top: 248px;*/
+width:60%;
+text-align:left;
+font-weight:bold;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+}
+
+#proc p{
+font-weight:bold;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14pt;
+}
+
+#study_practice{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+#study_practice th{
+    padding-right:10px;
+    font-size: 8pt;
+    color: #808080
+}
+
+.pr_change{
+    font-size:10pt;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:400;
+}
+
+
+
+
+
+
+

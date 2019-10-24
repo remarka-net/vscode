@@ -1,6 +1,7 @@
 import { css } from 'styled-components';
 
 const buttonStyles = css`
+background-color: red;
   display: inline-block;
   box-sizing: border-box;
   padding: 0.25em 2em;
